@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/note_layout"
+    style="@style/common2_mp"
+    android:orientation="vertical"
+    tools:context="com.example.makingnotes.NoteBlankFragment"
+    android:background="@drawable/home"
+    >
+
+    <TextView
+        android:id="@+id/note_date_of_creation"
+        style="@style/style_note"/>
+
+    <TextView
+        android:id="@+id/note_title"
+        style="@style/style_note"
+        android:textColorHint="@color/white"
+        android:hint="@string/title_note"
+
+        />
+
+    <TextView
+        android:id="@+id/note_content"
+        style="@style/style_note"
+        android:textColorHint="@color/white"
+        tools:text="@string/content_note" />
+
+</LinearLayout>
